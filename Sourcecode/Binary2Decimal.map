@@ -1,0 +1,115 @@
+MPLINK 4.48, Linker
+Linker Map File - Created Tue Aug 14 16:11:24 2018
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x0004b2
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000258      
+            601 out of 1094 program addresses used, program memory utilization is 54%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+               CHECK_MODE   0x000142    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+            CLEAR_DISPLAY   0x000056    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+CONVERT_DECIMAL_TO_BINARY   0x000151    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+      COUNT_HUNDREDS_LOOP   0x0001a2    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+          COUNT_TENS_LOOP   0x0001ba    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+       DEFINE_CHARACTER_0   0x000077    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+                    DELAY   0x000001    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+                  DELAY10   0x000009    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+                   DELAY5   0x000003    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+                  DELAY50   0x00000c    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+          DISPLAY_DECIMAL   0x000185    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+        DISPLAY_MODE_PAGE   0x00013e    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+    DISPLAY_RANDOM_BINARY   0x0001f2    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+DISPLAY_RANDOM_BINARY_LOOP   0x000215    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+DISPLAY_TIMED_RANDOM_BINARY   0x00021b    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+DISPLAY_TIMED_RANDOM_BINARY_LOOP   0x000234    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+               END_PROMPT   0x000253    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+           ENTRY_MODE_SET   0x000023    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+                GOTO_LINE   0x000064    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+             GREEN_BUTTON   0x000120    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+GREEN_BUTTON_WAIT_FOR_DEPRESS   0x000121    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+           INITIALISE_LCD   0x000089    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+                     MAIN   0x000130    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+                MODE_PAGE   0x0000dd    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+              MOVE_CURSOR   0x00004e    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+               RED_BUTTON   0x000128    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+RED_BUTTON_WAIT_FOR_DEPRESS   0x000129    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+          REMOVE_HUNDREDS   0x0001b1    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+              RETURN_HOME   0x00005d    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+            REVEAL_ANSWER   0x000252    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+                SEND_CHAR   0x00006a    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+       SET_CG_RAM_ADDRESS   0x000032    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+       SET_DD_RAM_ADDRESS   0x000039    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+                SET_DELAY   0x000012    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+              SET_DISPLAY   0x00002a    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+             SET_FUNCTION   0x000019    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+            SET_PORTIOAIN   0x000130    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+       SHIFT_DISPLAY_LEFT   0x000040    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+      SHIFT_DISPLAY_RIGHT   0x000047    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+                   SPLASH   0x00013a    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+                   STROBE   0x000016    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+               TITLE_PAGE   0x000097    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+      VALUE_LESS_THAN_100   0x0001b8    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    DELAY   0x000001    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+                   DELAY5   0x000003    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+                  DELAY10   0x000009    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+                  DELAY50   0x00000c    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+                SET_DELAY   0x000012    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+                   STROBE   0x000016    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+             SET_FUNCTION   0x000019    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+           ENTRY_MODE_SET   0x000023    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+              SET_DISPLAY   0x00002a    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+       SET_CG_RAM_ADDRESS   0x000032    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+       SET_DD_RAM_ADDRESS   0x000039    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+       SHIFT_DISPLAY_LEFT   0x000040    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+      SHIFT_DISPLAY_RIGHT   0x000047    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+              MOVE_CURSOR   0x00004e    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+            CLEAR_DISPLAY   0x000056    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+              RETURN_HOME   0x00005d    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+                GOTO_LINE   0x000064    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+                SEND_CHAR   0x00006a    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+       DEFINE_CHARACTER_0   0x000077    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+           INITIALISE_LCD   0x000089    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\LCD_Module_16x2_4Bit.inc
+               TITLE_PAGE   0x000097    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+                MODE_PAGE   0x0000dd    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+             GREEN_BUTTON   0x000120    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+GREEN_BUTTON_WAIT_FOR_DEPRESS   0x000121    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+               RED_BUTTON   0x000128    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+RED_BUTTON_WAIT_FOR_DEPRESS   0x000129    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+            SET_PORTIOAIN   0x000130    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+                     MAIN   0x000130    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+                   SPLASH   0x00013a    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+        DISPLAY_MODE_PAGE   0x00013e    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+               CHECK_MODE   0x000142    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+CONVERT_DECIMAL_TO_BINARY   0x000151    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+          DISPLAY_DECIMAL   0x000185    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+      COUNT_HUNDREDS_LOOP   0x0001a2    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+          REMOVE_HUNDREDS   0x0001b1    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+      VALUE_LESS_THAN_100   0x0001b8    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+          COUNT_TENS_LOOP   0x0001ba    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+    DISPLAY_RANDOM_BINARY   0x0001f2    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+DISPLAY_RANDOM_BINARY_LOOP   0x000215    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+DISPLAY_TIMED_RANDOM_BINARY   0x00021b    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+DISPLAY_TIMED_RANDOM_BINARY_LOOP   0x000234    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+            REVEAL_ANSWER   0x000252    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+               END_PROMPT   0x000253    program     static Z:\Documents\GitHubRepositories\Neo-pascal\OpenSource\Binary2Decimal\Sourcecode\Binary2Decimal.asm
+
+
